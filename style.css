@@ -21,6 +21,13 @@ header{
   overflow: hidden;
 }
 
+.wrapper2{
+  width: 90%;
+  max-width: 850px;
+  margin: auto;
+  overflow: hidden;
+}
+
 header .logo{
   color: #f2f2f2;
   font-size: 50px;
@@ -63,6 +70,11 @@ header nav a:hover{
 
 .header2 nav{
   line-height: 100px;
+}
+
+.container{
+  font-family: fantasy;
+  font-size: 20px;
 }
 
 .container p{
