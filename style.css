@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: fantasy;
 }
 
 body{
@@ -23,7 +24,7 @@ header{
 
 .wrapper2{
   width: 90%;
-  max-width: 850px;
+  max-width: 1000px;
   margin: auto;
   overflow: hidden;
 }
@@ -73,13 +74,21 @@ header nav a:hover{
 }
 
 .container{
-  font-family: fantasy;
-  font-size: 20px;
+  padding-top: 100px
 }
 
 .container p{
   margin-bottom: 1em;
 }
+
+.footer{
+  text-align: center;
+  background: #252932;
+  color: #fff;
+  font-size: 20px;
+  padding: 60px 0;
+}
+
 
 @media screen and (max-width: 950px){
   header .logo{
